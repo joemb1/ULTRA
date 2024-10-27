@@ -1,0 +1,12 @@
+citHeader("To cite package ‘ULTRA’ in publications use:")
+
+bibentry(
+  bibtype = "Manual",
+  title = "ULTRA: Univariate Logistic Tandem Regression Algorithm",
+  author = person("Joe", "Butler"),
+  year = "2024",
+  note = "R package version 0.0.0.9000",
+  url = "https://github......."
+)
+
+

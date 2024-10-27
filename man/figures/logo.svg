@@ -1,0 +1,25 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wider Hexagon Outline -->
+  <polygon points="150,30 240,90 240,180 150,240 60,180 60,90" fill="none" stroke="green" stroke-width="4"/>
+  
+  <!-- Gray Grid -->
+  <defs>
+    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="gray" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect x="60" y="40" width="180" height="180" fill="url(#grid)" />
+  
+  <!-- Rotated Text: U.L.T.R.A. at 60 degrees, parallel to top-left side -->
+  <text x="9" y="135" font-family="Courier" font-size="30" fill="blue" font-weight="bold" transform="rotate(326)">ULTRA</text>
+  
+  <!-- Blue Polynomial Curve with Confidence Region -->
+  <!-- Confidence Region -->
+  <path d="M 80 150 Q 150 50 220 150 L 220 140 Q 150 60 80 140 Z" fill="blue" fill-opacity="0.3"/>
+  <!-- Curve -->
+  <path d="M 80 150 Q 150 50 220 150" stroke="blue" stroke-width="3" fill="none"/>
+</svg>
+
+
+
+

@@ -1,0 +1,17 @@
+Package: ultra
+Title: ULTRA (Univariate Logistic Tandem Regression Algorithm)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Joe", "Butler", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6781-6408"))
+Description: ULTRA (Univariate Logistic Tandem Regression Algorithm) is a method for model fitting and feature selection when the number of observations are low compared to the number of features (p >> n).
+Date: 2024
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

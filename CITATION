@@ -1,0 +1,12 @@
+citHeader("To cite the use of this package in publications, please use:")
+
+citation <- bibentry(
+  bibtype = "Manual",
+  title = "ULTRA: An R Package for Advanced Statistical Analysis",
+  author = person("Jane", "Doe"),
+  year = "2024",
+  note = "R package version 1.0.0",
+  url = "https://CRAN.R-project.org/package=ULTRA"
+)
+
+citation

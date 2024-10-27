@@ -1,0 +1,53 @@
+---
+title: "ultra"
+author: "Joe Butler"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    fig_width: 8
+    fig_height: 5
+vignette: >
+  %\VignetteIndexEntry{ultra}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+  
+<style type="text/css">
+.main-container {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>  
+
+# Getting Started
+
+This section helps you get started with the ultra package.
+
+```{r,include=FALSE}
+knitr::opts_chunk$set(dev = "svg", fig.ext = "svg")
+```
+
+## Example Code
+```{r plot, fig.height=6, echo=TRUE}
+library(ultra)
+load("J:/My Drive/BSI_FINAL/ULTRA/git/ultra/R/results.Rdata")
+ULTRAplot(results)
+```
+
+
+## Citing ultra
+The method and package was developed in the <a href="https://www.amc.nl/web/research-75/departments/center-for-experimental-and-molecular-medicine-cemm.htm" target="_blank" rel="noopener noreferrer">Center for Experimental and Molecular Medicine</a> at the Amsterdam University Medical Center.
+
+If you use this package please cite using:
+
+```{r,include=T}
+ citation("ultra")
+```
+
+Thank you to the following collaborators, without whose support this work would not have been possible:<br>
+<a href="https://immunexpress.com/" target="_blank" rel="noopener noreferrer">Immunexpress</a><br>
+<a href="https://www.arcsepsis.com/" target="_blank" rel="noopener noreferrer">The African Research Collaboration on Sepsis</a>
+
