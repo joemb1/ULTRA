@@ -33,13 +33,13 @@ knitr::opts_chunk$set(dev = "svg", fig.ext = "svg")
 ## Example Code
 ```{r plot, fig.height=6, echo=TRUE}
 library(ultra)
-load("J:/My Drive/BSI_FINAL/ULTRA/git/ultra/R/results.Rdata")
+load("J:/My Drive/BSI_FINAL/ULTRA/git2/ultra/R/results.Rdata")
 ULTRAplot(results)
 ```
 
 
 ## Citing ultra
-The method and package was developed in the <a href="https://www.amc.nl/web/research-75/departments/center-for-experimental-and-molecular-medicine-cemm.htm" target="_blank" rel="noopener noreferrer">Center for Experimental and Molecular Medicine</a> at the Amsterdam University Medical Center.
+This package was developed through research performed in the <a href="https://www.amc.nl/web/research-75/departments/center-for-experimental-and-molecular-medicine-cemm.htm" target="_blank" rel="noopener noreferrer">Center for Experimental and Molecular Medicine</a> at the Amsterdam University Medical Center.
 
 If you use this package please cite using:
 

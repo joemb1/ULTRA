@@ -1,20 +1,3 @@
-<style type="text/css">
-.main-container {
-  max-width: 768px;
-  margin-left: auto;
-  margin-right: auto;
-}
-  .nowrap {
-    #white-space: nowrap;
-    font-size: 19px; 
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-  }
-</style>  
-
-
 # ultra <img src="man/figures/logo.svg" align="right" />
 
 
@@ -42,4 +25,3 @@ library(ultra)
 ```
 
 
-"# ultra" 

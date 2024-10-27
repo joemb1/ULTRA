@@ -1,4 +1,4 @@
-citHeader("To cite package ‘ULTRA’ in publications use:")
+citHeader("To cite package ‘ultra’ in publications use:")
 
 bibentry(
   bibtype = "Manual",
