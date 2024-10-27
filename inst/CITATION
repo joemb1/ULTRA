@@ -6,7 +6,7 @@ bibentry(
   author = person("Joe", "Butler"),
   year = "2024",
   note = "R package version 0.0.0.9000",
-  url = "https://github......."
+  url = "https://github.com/joemb1/ultra"
 )
 
 

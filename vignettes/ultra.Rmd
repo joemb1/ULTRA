@@ -44,6 +44,7 @@ This package was developed through research performed in the <a href="https://ww
 If you use this package please cite using:
 
 ```{r,include=T}
+
  citation("ultra")
 ```
 
