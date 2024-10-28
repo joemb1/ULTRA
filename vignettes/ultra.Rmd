@@ -33,7 +33,7 @@ knitr::opts_chunk$set(dev = "svg", fig.ext = "svg")
 ## Example Code
 ```{r plot, fig.height=6, echo=TRUE}
 library(ultra)
-load("J:/My Drive/BSI_FINAL/ULTRA/git2/ultra/R/results.Rdata")
+data("results")
 ULTRAplot(results)
 ```
 

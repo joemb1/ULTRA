@@ -16,3 +16,6 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 URL: https://joemb1.github.io/ultra/
+Depends: 
+    R (>= 2.10)
+LazyData: true
