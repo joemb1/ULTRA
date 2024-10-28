@@ -15,3 +15,4 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://joemb1.github.io/ultra/
